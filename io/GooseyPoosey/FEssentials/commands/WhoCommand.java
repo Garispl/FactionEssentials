@@ -15,10 +15,10 @@ public class WhoCommand implements CommandExecutor
 		if(cmd.getName().equalsIgnoreCase("who"))
 		{
 			Player p = (Player)sender;
-			p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-			p.sendMessage(ChatColor.GRAY + "There are currently " + ChatColor.GREEN + "(" + Bukkit.getOnlinePlayers().length + "/" + Bukkit.getMaxPlayers() + ")" + ChatColor.GRAY + " online.");
-			p.sendMessage(ChatColor.GRAY + "If you need any support please join our teamspeak.");
-			p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+			p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+			p.sendMessage(ChatColor.YELLOW + "There are currently " + ChatColor.GREEN + "(" + Bukkit.getOnlinePlayers().length + "/" + Bukkit.getMaxPlayers() + ")" + ChatColor.GRAY + " online.");
+			p.sendMessage(ChatColor.YELLOW + "If you need any support please join our teamspeak.");
+			p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 		}
 		return false;
 	}

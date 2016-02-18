@@ -21,34 +21,34 @@ public class KitCommand implements CommandExecutor
 			{
 				if(p.hasPermission("fe.default"))
 				{
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-					p.sendMessage(ChatColor.GREEN + " You have the rank of " + ChatColor.RED + "default" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.DARK_GREEN + " You have access to the following kits: " + ChatColor.GRAY + "[Default, Food, PvP, Starter]" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.YELLOW + " You have the rank of " + ChatColor.RED + "default" + ChatColor.YELLOW + ".");
+					p.sendMessage(ChatColor.YELLOW + " You have access to the following kits: " + ChatColor.GRAY + "[Default, Food, PvP, Starter]");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 				} else if(p.hasPermission("fe.vip"))
 				{
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-					p.sendMessage(ChatColor.GREEN + " You have the rank of " + ChatColor.RED + "VIP" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.DARK_GREEN + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, Food, PvP, Starter]" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.YELLOW + " You have the rank of " + ChatColor.RED + "VIP" + ChatColor.YELLOW + ".");
+					p.sendMessage(ChatColor.YELLOW + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, Food, PvP, Starter]");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 				} else if(p.hasPermission("fe.vip+"))
 				{
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-					p.sendMessage(ChatColor.GREEN + " You have the rank of " + ChatColor.RED + "VIP Plus" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.DARK_GREEN + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Food, PvP, Starter]" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.YELLOW + " You have the rank of " + ChatColor.RED + "VIP Plus" + ChatColor.YELLOW + ".");
+					p.sendMessage(ChatColor.YELLOW + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Food, PvP, Starter]");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 				} else if(p.hasPermission("fe.pro"))
 				{
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-					p.sendMessage(ChatColor.GREEN + " You have the rank of " + ChatColor.RED + "Pro" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.DARK_GREEN + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Pro, Food, PvP, Starter]" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.YELLOW + " You have the rank of " + ChatColor.RED + "Pro" + ChatColor.YELLOW + ".");
+					p.sendMessage(ChatColor.YELLOW + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Pro, Food, PvP, Starter]");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 				} else if(p.isOp())
 				{
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
-					p.sendMessage(ChatColor.GREEN + " You have the rank of " + ChatColor.RED + "OP" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.DARK_GREEN + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Pro, Food, PvP, Starter]" + ChatColor.GREEN + ".");
-					p.sendMessage(ChatColor.GREEN + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
+					p.sendMessage(ChatColor.YELLOW + " You have the rank of " + ChatColor.RED + "OP" + ChatColor.YELLOW + ".");
+					p.sendMessage(ChatColor.YELLOW + " You have access to the following kits: " + ChatColor.GRAY + "[Default, VIP, VIP+, Pro, Food, PvP, Starter]");
+					p.sendMessage(ChatColor.GRAY + "" + ChatColor.STRIKETHROUGH + "                                                              ");
 				}
 			}
 			
@@ -66,7 +66,7 @@ public class KitCommand implements CommandExecutor
 					p.getInventory().addItem(iron_chest);
 					p.getInventory().addItem(iron_legs);
 					p.getInventory().addItem(iron_boots);
-					p.sendMessage(ChatColor.GREEN + "Giving you kit " + ChatColor.RED + "Default" + ChatColor.GREEN + ".");
+					p.sendMessage(ChatColor.YELLOW + "Giving you kit " + ChatColor.RED + "Default" + ChatColor.YELLOW + ".");
 				}
 				if(args[0].equalsIgnoreCase("vip"))
 				{
@@ -86,7 +86,7 @@ public class KitCommand implements CommandExecutor
 					p.getInventory().addItem(iron_chest);
 					p.getInventory().addItem(iron_legs);
 					p.getInventory().addItem(iron_boots);
-					p.sendMessage(ChatColor.GREEN + "Giving you kit " + ChatColor.RED + "VIP" + ChatColor.GREEN + ".");
+					p.sendMessage(ChatColor.YELLOW + "Giving you kit " + ChatColor.RED + "VIP" + ChatColor.YELLOW + ".");
 				}
 			}
 		}

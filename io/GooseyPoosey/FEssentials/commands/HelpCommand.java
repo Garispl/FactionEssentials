@@ -18,6 +18,7 @@ public class HelpCommand implements CommandExecutor
 			p.sendMessage("   " + ChatColor.GREEN + "/fac >" + ChatColor.DARK_GREEN + " Learn how to use the faction command.");
 			p.sendMessage("   " + ChatColor.GREEN + "/wild > " + ChatColor.DARK_GREEN + " Teleport to a random location.");
 			p.sendMessage("   " + ChatColor.GREEN + "/kit > " + ChatColor.DARK_GREEN + " View the avaliable kits for your rank.");
+			p.sendMessage("   " + ChatColor.GREEN + "/rules > " + ChatColor.DARK_GREEN + " View the server's rules." );
 			p.sendMessage("   " + ChatColor.GREEN + "/list > " + ChatColor.DARK_GREEN + " View amount of players currently online.");
 			p.sendMessage("   " + ChatColor.GREEN + "/auction >" + ChatColor.DARK_GREEN + " Learn how to use the auction plugin.");
 			p.sendMessage("   " + ChatColor.GREEN + "/ct >" + ChatColor.DARK_GREEN + " View your current combat tag.");
