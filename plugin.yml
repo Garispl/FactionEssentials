@@ -1,0 +1,8 @@
+name: FactionEssentials
+main: io.GooseyPoosey.FEssentials.Main
+description: FactionEssentials by GooseyPoosey
+version: 0.0.3
+commands:
+    who:
+    help:
+    kit:
